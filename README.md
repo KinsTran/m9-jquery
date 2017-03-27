@@ -1,23 +1,8 @@
-# Module 10: jQuery
+# jQuery
 
-## Overview
 When working in JavaScript, it's common to leverage a pre-written set of functions called a **library**: libraries enable users to abstract away common tasks into functions that they may use across projects.  The open-source community has developed a variety of general-purpose JavaScript libraries, one of the most common of which is **jQuery**.  While jQuery has a variety of applications and purposes, we'll primarily use it for **selecting** elements, **assigning** event listeners, and **reading data**.
 
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Contents**
-
-- [Resources](#resources)
-- [Getting Started](#getting-started)
-- [Selecting elements](#selecting-elements)
-- [Adding/Removing elements](#addingremoving-elements)
-- [Assigning Event Handlers](#assigning-event-handlers)
-- [Animation](#animation)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
-## Resources
-Here are some helpful resources help you start using jQuery:
+Helpful links:
 
 - [jQuery selectors](http://www.w3schools.com/jquery/jquery_selectors.asp)
 - [jQuery tutorial](http://www.w3schools.com/jquery/)
@@ -110,7 +95,7 @@ $('input').val(''); // Set value to empty string
 
 ```
 
-To practice getting/setting values, see [exercise-1](exercise-1).
+To practice getting/setting values, see [exercise-1](http://github.com/info474-s17/m9-jquery/tree/master/exercise-1).
 
 ## Adding/Removing elements
 In addition to manipulating elements already on the screen, you can use jQuery to add or remove DOM elements.  Let's start with the easy part (removing).  You may want to `remove` an element (which would remove all of the elements _inside of_ it), or you may want to remove only the contents within an element (i.e. `empty` it out)
@@ -147,7 +132,7 @@ $('#my-div').after(p);
 
 ```
 
-To practice adding/removing elements, see [exercise-2](exercise-2).
+To practice adding/removing elements, see [exercise-2](http://github.com/info474-s17/m9-jquery/tree/master/exercise-2).
 
 
 ## Assigning Event Handlers
@@ -172,7 +157,7 @@ $('selector').action(function() {
 });
 ```
 
-To practice assigning event handlers, see [exercise-3](exercise-3).
+To practice assigning event handlers, see [exercise-3](http://github.com/info474-s17/m9-jquery/tree/master/exercise-3).
 
 ## Animation
 A fun part of the jQuery library is it provides a set of tools for staging animations. There are a variety of built-in function, as well as the ability to write your own custom animations.  Here are a few fun/common ones:
@@ -197,4 +182,4 @@ $("#my-div").animate({
 }, 1500);
 ```
 
-To practice accessing information via object properties, and leveraging different object methods, see [exercise-4](exercise-4).
+To practice accessing information via object properties, and leveraging different object methods, see [exercise-4](http://github.com/info474-s17/m9-jquery/tree/master/exercise-4).
